@@ -46,7 +46,10 @@ public class Main {
                     startingSystem.showStatistics();
                     break;
                 default:
-                    System.out.println("[ERRO] Essa opção não existe no sistema! ");
+                    if(confirmation != 0){
+                        System.out.println("[ERRO] Essa opção não existe no sistema! ");
+                    }
+                    
                     break;
             }
         } while(confirmation != 0);

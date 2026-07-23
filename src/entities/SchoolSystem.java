@@ -152,7 +152,7 @@ public class SchoolSystem {
 
         classAverage = sumOfAllAverages / list_of_students.size();
 
-        System.out.println("Média da turma: " + classAverage + "\n");
+        System.out.printf("Média da turma: %.2f" + classAverage + "\n");
 
         for(int i = 0; i < list_of_students.size(); i++){
             Student student = list_of_students.get(i);
